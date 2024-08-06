@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(150deg, rgba(88, 100, 232, 1), rgba(110, 33, 250, 1));
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardOne {
+  width: 350px;
+  height: 660px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 10px -1px #ffffffbf;
+  background-color: white;
+}
+
+.cardOne div h2 {
+  position: absolute;
+  color: white;
+  font-size: 2.5rem;
+  top: 80px;
+  left: 20px;
+}
+
+.cardOne div img {
+  position: absolute;
+  width: 90%;
+  bottom: 30px;
+  right: -60px;
+}
+
+.cardOne span {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1rem;
+  gap: 15px;
+}
+
+.cardOne span p {
+  padding: 4px 8px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-weight: 800;
+  margin-top: 5px;
+}
+
+.cardOne .icon {
+  width: 90%;
+  margin: -15px auto;
+}
+
+.icon .icons {
+  font-size: 1.2rem;
+  margin: 0px 3px;
+}
+
+.cardOne h3 {
+  width: 90%;
+  font-size: 1rem;
+  margin: 30px auto;
+}
+
+.numbers {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: -20px auto;
+  gap: 20px;
+}
+
+.numbers p {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    color: white;
+    background-color: #ff5e00;
+    transition: 0.4s linear;
+  }
+}
+
+.one p:nth-child(3) {
+  background-color: #ff5e00;
+  color: white;
+}
+
+.two p:nth-child(1) {
+  background-color: #ff5e00;
+  color: white;
+}
+
+.three p:nth-child(1) {
+  background-color: #ff5e00;
+  color: white;
+}
+
+.colors {
+  width: 90%;
+  height: 40px;
+  margin: -30px auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.colors div {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.colorsOne div:nth-child(1) {
+  background-color: red;
+}
+
+.colorsOne div:nth-child(2) {
+  background-color: black;
+}
+
+.colorsOne div:nth-child(3) {
+  background-color: green;
+}
+
+.colorsOne div:nth-child(4) {
+  padding: 2px;
+  border: 1px solid blue;
+}
+
+.colors div span {
+  width: 25px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.colorsTwo div:nth-child(1) {
+  padding: 2px;
+  border: 1px solid #E05D3F;
+  background-color: white;
+}
+
+.colorsTwo div:nth-child(2) {
+  background-color: #873A36;
+}
+
+.colorsTwo div:nth-child(3) {
+  background-color: #431B1C;
+}
+
+.colorsTwo div:nth-child(4) {
+  background-color: black;
+}
+
+.colorsTwo div span {
+  width: 25px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #E05D3F;
+}
+
+.colorsThree div:nth-child(1) {
+  background-color: #B10205;
+}
+
+.colorsThree div:nth-child(2) {
+  background-color: #FBD902;
+}
+
+.colorsThree div:nth-child(3) {
+  background-color: #1621D8;
+}
+
+.colorsThree div:nth-child(4) {
+  width: 28px;
+  height: 29px;
+  background-color: white;
+  border: 1px solid #68C6C0;
+}
+
+.colorsThree div span {
+  width: 22px;
+  height: 22px;
+  background-color: #68C6C0;
+}
+
+.buttons {
+  width: 92%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 35px auto;
+}
+
+.buttonsThree {
+  width: 92%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px auto;
+}
+
+.buttons button:nth-child(1) {
+
+  width: 50%;
+  height: 100%;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #9000FF;
+}
+
+.buttons button:nth-child(2) {
+  width: 50%;
+  height: 100%;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #AA3DFF;
+}
+
+.cardOne .card_orange {
+  height: 350px;
+  position: relative;
+  border-radius: 20px 20px 50% 50%;
+  background: linear-gradient(150deg, #fa782e, #c82930);
+}
+
+.cardOne .card_purple {
+  height: 350px;
+  position: relative;
+  border-radius: 20px 20px 50% 50%;
+  background: linear-gradient(150deg, #5D1D88, #FFB700);
+}
+
+.cardOne .card_pink {
+  height: 350px;
+  position: relative;
+  border-radius: 20px 20px 50% 50%;
+  background: linear-gradient(150deg, #F04DA1, #005EAB);
+}
